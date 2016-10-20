@@ -2,6 +2,8 @@
 @import url(fonts.css);
 @import url(slider.css);
 @import url(footer-header.css);
+@import url(mobile.css);
+
 body {
     background: #ddd;
 }
@@ -24,7 +26,6 @@ a {
 }
 .flex-box {
     display: flex;
-    ;
 }
 .flex-box-column {
     flex-direction: column;
@@ -43,4 +44,7 @@ a {
 }
 .center-text {
     text-align: center;
+}
+#who-am-i {
+    display: none;
 }

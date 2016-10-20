@@ -6,5 +6,10 @@
         paginationClickable: true
     })
 }(jQuery));
+(function ($){
+    $('#hamburger').click(function(){
+        $('#hamburger, .menu').toggleClass("open");
+    })
+}(jQuery));
  
 
