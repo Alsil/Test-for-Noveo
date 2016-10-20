@@ -21,3 +21,7 @@
 .slider-content ul {
     list-style: none;
 }
+.slider-content ul li {
+    font-size: 20px;
+    width: 350px;
+}

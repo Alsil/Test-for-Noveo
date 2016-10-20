@@ -10,8 +10,8 @@ body, ul {
 body * {
     font-family: OpenSans-CondLight;
 }
-h1, h2, h3, h4, h5, h6, a {
-    font-family: JosefinSlab-Regular;
+h1, h2, h3, h4, h5, h6, a, .slider-content * {
+    font-family: OpenSans-CondBold;
 }
 a {
     text-decoration: none;
