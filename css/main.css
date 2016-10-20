@@ -1,9 +1,17 @@
 @import url(swiper.min.css);
 @import url(fonts.css);
+@import url(slider.css);
+@import url(footer.css);
 
+body {
+    margin: 0 0;
+}
 body * {
     font-family: OpenSans-CondLight;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a {
     font-family: JosefinSlab-Regular;
+}
+a {
+    text-decoration: none;
 }
