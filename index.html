@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,14 +19,19 @@
 <body>
 
 <nav>
-    <div>
+    <div class="container flex-box">
         <div>
-            <img src="" alt="">
+            <img src="images/HTML5_Logo_64.png" alt="">
         </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="flex-box menu">
+            <div><a href="index.html">Главная</a></div>
+            <div><a href="#about">Интересы</a></div>
+            <div><a href="#">Что еще добавить?</a></div>
+        </div>
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
 </nav>
@@ -48,7 +53,7 @@
             </div>
             <div class="swiper-slide">
                 <img src="images/slide2.jpg">
-                <div  class="slider-content">
+                <div class="slider-content">
                     <h1>Что с обучением?</h1>
                     <ul>
                         <li>Неоконченное высшее</li>
@@ -59,7 +64,7 @@
             </div>
             <div class="swiper-slide">
                 <img src="images/slide3.jpg">
-                <div  class="slider-content">
+                <div class="slider-content">
                     <h1>А что у нас с работой и опытом?</h1>
                     <ul>
                         <li>3,5 года - руководитель подразделения демонтажной командой, но...</li>
@@ -74,30 +79,33 @@
     </div>
 </div>
 
-<div>
-    <div>
-        <h2></h2>
-        <div>
+<div id="about">
+    <h2 class="center-text">А чем мы увлекаемся?</h2>
+    <div class="container flex-box">
+        <div class="flex-box flex-box-column interests">
             <div>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
+                <h3>Верни мне музыку, без музыки - тоска...</h3>
+                <img src="images/music.jpg" alt="">
+                <p>Музыка... Она может воодушевить и размазать тебя об асфальт. Под нее классно работать, тренироваться,
+                    да все что угодно! Много и разной под разное настроение. Главное, чтобы она была.</p>
             </div>
             <div>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
+                <h3>Нам нужно больше золота! Нам нужен Зикк... Стоп. Нам нужно больше эмоций!</h3>
+                <img src="images/sport.jpg" alt="">
+                <p>Сноуборд? Пострелять из лука? Побиться на мечах? Устроить ночную прогулку на велосипедах? Сыграть в
+                    какую-нибудь спортивную игру? Мой ответ - ДА!</p>
             </div>
         </div>
-        <div>
+        <div class="flex-box flex-box-column interests">
             <div>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
+                <h3>Чукча? Кто чукча? Я - читатель.</h3>
+                <img src="images/books.jpg" alt="">
+                <p>Чтение развивает твой мозг. Оно отправляет твое сознание в путешествие. Нужно ли читать? Обязательно!
+                    Особенно техническую литературу)</p>
             </div>
             <div>
-                <h3></h3>
-                <img src="" alt="">
+                <h3>В здоровом теле - здоровый Пух. Винни Пух.</h3>
+                <img src="images/body.jpg" alt="">
                 <p></p>
             </div>
         </div>
