@@ -48,3 +48,16 @@ a {
 #who-am-i {
     display: none;
 }
+#scroll-to-top {
+    position: fixed;
+    color: #fff;
+    background: #8080ff;
+    bottom: 40px;
+    right: 40px;
+    z-index: 5;
+    padding: 5px 10px;
+    display: none;
+}
+#scroll-to-top:hover {
+    color: #000;
+}
