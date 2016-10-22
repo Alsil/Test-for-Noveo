@@ -6,3 +6,11 @@
     font-family: OpenSans-CondLight;
     src: url(../fonts/OpenSans-CondLight.ttf);
 }
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
