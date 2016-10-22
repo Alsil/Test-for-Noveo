@@ -1,5 +1,5 @@
 nav  {
-    background: #000;
+    background: #62c5d0;
     padding: 5px 0;
 }
 nav>div {
@@ -11,7 +11,7 @@ nav img {
     display: block;
 }
 nav a {
-    color: #8080ff;
+    color: #050505;
     padding: 10px 20px;
 }
 nav a:hover, nav a:active {
@@ -21,12 +21,12 @@ nav a:hover, nav a:active {
     display: none;
 }
 footer {
-    background: #8080ff;
-    color: #fff;
+    background: #050505;
+    color: #62c5d0;
     padding: 10px 0;
     text-align: center;
     font-size: 16px;
 }
 footer a {
-    color: #000;
+    color: #fff;
 }

@@ -6,6 +6,7 @@
 
 body {
     background: #ddd;
+    color: #050505;
 }
 body, ul {
     margin: 0 0;
@@ -19,6 +20,9 @@ h1, h2, h3, h4, h5, h6, a{
 }
 a {
     text-decoration: none;
+}
+ul {
+    list-style: none;
 }
 .container {
     max-width: 960px;
@@ -36,7 +40,7 @@ a {
     padding: 0 20px;
 }
 .interests h3 {
-    background: #8080ff;
+    background: #62c5d0;
     padding: 5px;
 }
 .interests img {
@@ -51,13 +55,15 @@ a {
 #scroll-to-top {
     position: fixed;
     color: #fff;
-    background: #8080ff;
+    background: #62c5d0;
     bottom: 40px;
     right: 40px;
     z-index: 5;
     padding: 5px 10px;
     display: none;
+    font-size: 20px;
+    transition: color .25s ease-in-out;
 }
 #scroll-to-top:hover {
-    color: #000;
+    color: #050505;
 }
