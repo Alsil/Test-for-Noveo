@@ -71,6 +71,13 @@
     #menu.flex-box {
         display: none;
     }
+    #scroll-to-top {
+        right: 15px;
+    }
+
+    #menu li {
+        padding: 10px;
+    }
     #menu.flex-box.open {
         position: absolute;
         top: 40px;
@@ -85,7 +92,7 @@
         padding: 0 15px;
     }
     .interests {
-        width: auto !important;
+        width: auto;
     }
     #about .flex-box {
         flex-direction: column;
@@ -98,8 +105,14 @@
     }
     #who-am-i.container {
         display: block;
+        padding-top: 20px;
     }
     #who-am-i.container ul {
         list-style: none;
+    }
+    #who-am-i img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
     }
 }
